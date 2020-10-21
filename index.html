@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="pt" dir="ltr">
     <head id = "HD1">
-        <title>Sistema</title>
+        <title>+ Serviços</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/cons.js"></script>
@@ -73,10 +73,13 @@
                     <script type="text/javascript" src ="js/cons.js"></script>
                 </select>
                 <h1>Cartão de credito</h1>
+                <label for="nomecc">Nome impresso no Cartão</label>
+                <input type="text" name="nomecc" id="nomecc" maxlength="30"/><br>
                 <label for="num">N°</label>
                 <input type="tel" name="cc" id="cc" maxlength="19" /><br>
                 <label for="vct">Vencimento</label>
-                <input type="tel" name="vct" id="vct" maxlength="5"/><br>                
+                <input type="tel" name="vct" id="vct" onkeyup="vctocc" placeholder="12/2020" maxlength="7"/><br> 
+
             </form>
 
            <!--cadastro fornecedor-->

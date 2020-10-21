@@ -58,12 +58,6 @@ $("#input").blur(function(){
 });
 
 /*cartao*/
-  var cartoes = {
-    Visa: /^4[0-9]{12}(?:[0-9]{3})/,
-    Mastercard: /^5[1-5][0-9]{14}/,
-    Amex: /^3[47][0-9]{13}/,
-};
-
 function mascara(o,f){
     v_obj=o
     v_fun=f
@@ -86,4 +80,5 @@ window.onload = function(){
 	id('cc').onkeypress = function(){
 		mascara( this, mcc );
 	}
-}
+};
+/*data vcto*/
