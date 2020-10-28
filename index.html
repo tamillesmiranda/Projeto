@@ -1,93 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html lang="pt" dir="ltr">
     <head id = "HD1">
-<<<<<<< Updated upstream
         <title>+ Serviços</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/cons.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-        <body>
-            <!--login-->
-            <h1>Login</h1>
-           <form>
-                <input type="email" name="email" placeholder="Digite seu e-mail"></p>
-                <input type="password" name="senha" placeholder="Digite sua Senha">
-              </form>
-              <form>
-                <p>Selecione a categoria</p>
-                <input type="radio" name="Consumidor" value="Consumidor">Consumidor<br>
-                <input type="radio" name="Fornecedor" value="Fornecedor">Fornecedor<br>
-            </form>
-            <form>
-                <input type="submit" value="Entrar">
-            </form><br>
-            <!--cadastro pf-->
-            <form>
-                <h1>Cadastro Consumidor</h1><br>
-                <label for="nome">Nome</label>
-                <input id="nome" type="text" required/><br>
-                <label for="cpf">CPF</label>
-                <input type="text" id="input" maxlength="11" /><span id="resposta"></span><br>
-                <label for="rg">RG</label>
-                <input id="rg" type="text" required/><br>
-                <label for="cep">CEP</label>
-                <input id="cep" type="text" maxlength="8" required/><br>
-                <label for="logradouro">Logradouro</label>
-                <input id="logradouro" type="text" required/><br>
-                <label for="numero">Número</label>
-                <input id="numero" type="text" /><br>
-                <label for="complemento">Complemento</label>
-                <input id="complemento" type="text"/><br>
-                <label for="bairro">Bairro</label>
-                <input id="bairro" type="text" required/><br>
-                <label for="uf">Estado</label>
-                <select id="uf">
-                    <option value="AC">Acre</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="DF">Distrito Federal</option>
-                    <option value="ES">Espírito Santo</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="PA">Pará</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PR">Paraná</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="TO">Tocantins</option>
-                    <script type="text/javascript" src ="js/cons.js"></script>
-                </select>
-                <h1>Cartão de credito</h1>
-                <label for="nomecc">Nome impresso no Cartão</label>
-                <input type="text" name="nomecc" id="nomecc" maxlength="30"/><br>
-                <label for="num">N°</label>
-                <input type="tel" name="cc" id="cc" maxlength="19" /><br>
-                <label for="vct">Vencimento</label>
-                <input type="tel" name="vct" id="vct" onkeyup="vctocc" placeholder="12/2020" maxlength="7"/><br> 
-
-            </form>
-=======
-      <title>Sistema</title>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/cons.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Prestadora de Serviços</title>
@@ -95,308 +15,312 @@
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/fontawesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-        
-</head>
-<body>
-   <div class="top_section">
-      <div class="top_inner">
-         <div id="header" class="header">
-      <nav class="navbar navbar-expand-lg navbar-light text-capitalize">
-         <div class="container">
-            <h1> Prestadora de Serviços </h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="show-menu">
-               <ul class="navbar-nav ml-auto">
-                  
-                  <li class="nav-item">
-                     <a class="nav-link" href="#trainings">Página de Login</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#classes">Página de Cadastro </a>
-                  </li>
-                  
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-   </div>
-         <div id="main_slider" class="carousel slide" data-ride="carousel">
-         <ol class="carousel-indicators">
-            <li data-target="#main_slider" data-slide-to="0" class="active"></li>
-            <li data-target="#main_slider" data-slide-to="1"></li>
-         </ol>
-         <div class="carousel-inner">
-            <div class="carousel-item active">                 
-               <div class="ovarlay_slide_cont">                    
-               </div>
-            </div>
-            <div class="carousel-item">                 
-               <div class="ovarlay_slide_cont">                     
-               </div>
-            </div>
-         </div>
-         
-         </div> 
-      </div>
-   </div>
-
-   <div id="trainings" class="layout_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12 text_align_center">
-               <h2 class="heading_section">Faça seu login</h3>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="trainings_blog" class="layout_padding" style="background: #b52f3c;">
-      <div align="center">
-         <h1>Para acesso realize o seu login</h1>
-     
-    <form>
-         <input type="email" name="email" placeholder="Digite seu e-mail"></p>
-         <input type="password" name="senha" placeholder="Digite sua Senha">
-       </form>
-       <form>
-         <p>Selecione a categoria</p>
-         <input type="radio" name="Consumidor" value="Consumidor">Consumidor<br>
-         <input type="radio" name="Fornecedor" value="Fornecedor">Fornecedor<br>
-     </form>
-     <form>
-         <input type="submit" value="Entrar">
-     </form><br>
- </div>
-     <!--cadastro pf-->
-     <form>
-         
-     </form>
-   </div>
-   
-   <div id="classes" class="layout_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12 text_align_center">
-               <h2 class="heading_section" >Primeiro Acesso?</h3>
-               <h2 class="heading_section" style="margin-bottom: 65px;">Realize seu cadastro</h3>
-            </div>
-         </div>
-         <div class="row">
-            <form>
-               <h1>Cadastro Consumidor</h1><br>
-               <label for="nome">Nome</label>
-               <input id="nome" type="text" required/><br>
-               <label for="cpf">CPF</label>
-               <input type="text" id="input" maxlength="11" /><span id="resposta"></span><br>
-               <label for="rg">RG</label>
-               <input id="rg" type="text" required/><br>
-               <label for="cep">CEP</label>
-               <input id="cep" type="text" maxlength="8" required/><br>
-               <label for="logradouro">Logradouro</label>
-               <input id="logradouro" type="text" required/><br>
-               <label for="numero">Número</label>
-               <input id="numero" type="text" /><br>
-               <label for="complemento">Complemento</label>
-               <input id="complemento" type="text"/><br>
-               <label for="bairro">Bairro</label>
-               <input id="bairro" type="text" required/><br>
-               <label for="uf">Estado</label>
-               <select id="uf">
-                   <option value="AC">Acre</option>
-                   <option value="AL">Alagoas</option>
-                   <option value="AP">Amapá</option>
-                   <option value="AM">Amazonas</option>
-                   <option value="BA">Bahia</option>
-                   <option value="CE">Ceará</option>
-                   <option value="DF">Distrito Federal</option>
-                   <option value="ES">Espírito Santo</option>
-                   <option value="GO">Goiás</option>
-                   <option value="MA">Maranhão</option>
-                   <option value="MT">Mato Grosso</option>
-                   <option value="MS">Mato Grosso do Sul</option>
-                   <option value="MG">Minas Gerais</option>
-                   <option value="PA">Pará</option>
-                   <option value="PB">Paraíba</option>
-                   <option value="PR">Paraná</option>
-                   <option value="PE">Pernambuco</option>
-                   <option value="PI">Piauí</option>
-                   <option value="RJ">Rio de Janeiro</option>
-                   <option value="RN">Rio Grande do Norte</option>
-                   <option value="RS">Rio Grande do Sul</option>
-                   <option value="RO">Rondônia</option>
-                   <option value="RR">Roraima</option>
-                   <option value="SC">Santa Catarina</option>
-                   <option value="SP">São Paulo</option>
-                   <option value="SE">Sergipe</option>
-                   <option value="TO">Tocantins</option>
-                   <script type="text/javascript" src ="js/cons.js"></script>
-               </select>
-               <h1>Cartão de credito</h1>
-               <label for="num">N°</label>
-               <input type="tel" name="cc" id="cc" maxlength="19" /><br>
-               <label for="vct">Vencimento</label>
-               <input type="tel" name="vct" id="vct" maxlength="5"/><br>                
-           </form>
-       
-          <!--cadastro fornecedor-->
-          <form>
-           <h1>Cadastro Fornecedor</h1><br>
-           <label for="nome">Nome</label>
-           <input id="nome" type="text" required/><br>
-           <label for="cpf">CPF</label>
-           <input id="cpf" type="text" onkeyup="cpfCheck(this)" maxlength="14" onkeydown="javascript:fMasc(this, mCPF);"><br>
-           <label for="rg">RG</label>
-           <input id="rg" type="text" required/><br>
-           <label for="cep">CEP</label>
-           <input id="cep" type="text" maxlength="8" required/><br>
-           <label for="logradouro">Logradouro</label>
-           <input id="logradouro" type="text" required/><br>
-           <label for="numero">Número</label>
-           <input id="numero" type="text" /><br>
-           <label for="complemento">Complemento</label>
-           <input id="complemento" type="text"/><br>
-           <label for="bairro">Bairro</label>
-           <input id="bairro" type="text" required/><br>
-           <label for="uf">Estado</label>
-           <select id="uf">
-               <option value="AC">Acre</option>
-               <option value="AL">Alagoas</option>
-               <option value="AP">Amapá</option>
-               <option value="AM">Amazonas</option>
-               <option value="BA">Bahia</option>
-               <option value="CE">Ceará</option>
-               <option value="DF">Distrito Federal</option>
-               <option value="ES">Espírito Santo</option>
-               <option value="GO">Goiás</option>
-               <option value="MA">Maranhão</option>
-               <option value="MT">Mato Grosso</option>
-               <option value="MS">Mato Grosso do Sul</option>
-               <option value="MG">Minas Gerais</option>
-               <option value="PA">Pará</option>
-               <option value="PB">Paraíba</option>
-               <option value="PR">Paraná</option>
-               <option value="PE">Pernambuco</option>
-               <option value="PI">Piauí</option>
-               <option value="RJ">Rio de Janeiro</option>
-               <option value="RN">Rio Grande do Norte</option>
-               <option value="RS">Rio Grande do Sul</option>
-               <option value="RO">Rondônia</option>
-               <option value="RR">Roraima</option>
-               <option value="SC">Santa Catarina</option>
-               <option value="SP">São Paulo</option>
-               <option value="SE">Sergipe</option>
-               <option value="TO">Tocantins</option>
-               <script type="text/javascript" src ="js/cons.js"></script>
-           </select>
-         </form>
-       
-       
-       </body>
-       </html>
-      
-         </div>
-      </div>
-   </div>
-
-   
-
- 
-               <h2 class="heading_section">Fale conosco</h3>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="trainings_blog" class="layout_padding" style="background: #b52f3c;">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-5">
-               <div class="contact-form">
-                  <form>
-                     <input type="text" placeholder="Nome completo" />
-                     <input type="text" placeholder="Telefone/celuar" />
-                     <input type="email" placeholder="Email" />
-                     <textarea placeholder="mensagem"></textarea>
-                     <input type="submit" value="Enviar">
-                  </form>
-               </div>
-            </div>
-            
-         </div>
-      </div>
-   </div>
-   <footer>
-      <div class="container">
-         <div class="row">
-
-           <div class="col-lg-2 col-md-6 col-12">
-               <div class="item">
-                  <h4>Adderss</h4>
-                  <p><img src="imgs/location.png" alt="#" />Curitiba<br>Paraná</p>
-                  <p><img src="imgs/phone_icon.png" alt="#" />+554133333333<br>+554133333333</p>
-                  <p><img src="imgs/mail_icon.png" alt="#" /> projeto@gmail.com</p>
-               </div>
-            </div>
->>>>>>> Stashed changes
-
-            <div class="col-lg-3 col-md-6 col-12">
-               <div class="item">
-                  
-                  
-               </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 col-12">
-               
-               <div class="item social_icon">
-                  <ul>
-                     <li><img src="imgs/fb.png" alt="#"></li>
-                     <li><img src="imgs/tw.png" alt="#"></li>
-                     <li><img src="imgs/in.png" alt="#"></li>
-                     <li><img src="imgs/gp.png" alt="#"></li>
+   </head>
+   <body>
+      <div class="top_section">
+         <div class="top_inner">
+            <div id="header" class="header">
+         <nav class="navbar navbar-expand-lg navbar-light text-capitalize">
+            <div class="container">
+               <h1> Prestadora de Serviços </h1>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="show-menu">
+                  <ul class="navbar-nav ml-auto">
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#trainings">Página de Login</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#classes">Página de Cadastro </a>
+                     </li>
+                     
+                     </li>
                   </ul>
                </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 col-12">
-               
+         </nav>
+      </div>
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#main_slider" data-slide-to="0" class="active"></li>
+               <li data-target="#main_slider" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  
+                  <div class="ovarlay_slide_cont">
+                     
+                     
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  
+                  <div class="ovarlay_slide_cont">
+                     
+                     
+                  </div>
+               </div>
             </div>
-
+            
+            </div> 
          </div>
       </div>
-      <div class="copyright text-center">
-         <p>Copyright © 2019 Designed by <a href="https://html.design">Free Html Templates</a>. All rights reserved</p>
+
+      <div id="trainings" class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section">Faça seu login</h3>
+               </div>
+            </div>
+         </div>
       </div>
-   </footer>
-   <script src="js/jquery-3.3.1.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   <script>
-      $(function () {
+      <div id="trainings_blog" class="layout_padding" style="background: #b52f3c;">
+         <div align="center">
+            <h1>Para acesso realize o seu login</h1>
+        
+       <form>
+            <input type="email" name="email" placeholder="Digite seu e-mail"></p>
+            <input type="password" name="senha" placeholder="Digite sua Senha">
+          </form>
+          <form>
+            <p>Selecione a categoria</p>
+            <input type="radio" name="Consumidor" value="Consumidor">Consumidor<br>
+            <input type="radio" name="Fornecedor" value="Fornecedor">Fornecedor<br>
+        </form>
+        <form>
+            <input type="submit" value="Entrar">
+        </form><br>
+    </div>
+        <!--cadastro pf-->
+        <form>
+            
+        </form>
+      </div>
+      
+      <div id="classes" class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section" >Primeiro Acesso?</h3>
+                  <h2 class="heading_section" style="margin-bottom: 65px;">Realize seu cadastro</h3>
+               </div>
+            </div>
+            <div class="row">
+               <form>
+                  <h1>Cadastro Consumidor</h1><br>
+                  <label for="nome">Nome</label>
+                  <input id="nome" type="text" required/><br>
+                  <label for="cpf">CPF</label>
+                  <input type="text" id="input" maxlength="11" /><span id="resposta"></span><br>
+                  <label for="rg">RG</label>
+                  <input id="rg" type="text" required/><br>
+                  <label for="cep">CEP</label>
+                  <input id="cep" type="text" maxlength="8" required/><br>
+                  <label for="logradouro">Logradouro</label>
+                  <input id="logradouro" type="text" required/><br>
+                  <label for="numero">Número</label>
+                  <input id="numero" type="text" /><br>
+                  <label for="complemento">Complemento</label>
+                  <input id="complemento" type="text"/><br>
+                  <label for="bairro">Bairro</label>
+                  <input id="bairro" type="text" required/><br>
+                  <label for="uf">Estado</label>
+                  <select id="uf">
+                      <option value="AC">Acre</option>
+                      <option value="AL">Alagoas</option>
+                      <option value="AP">Amapá</option>
+                      <option value="AM">Amazonas</option>
+                      <option value="BA">Bahia</option>
+                      <option value="CE">Ceará</option>
+                      <option value="DF">Distrito Federal</option>
+                      <option value="ES">Espírito Santo</option>
+                      <option value="GO">Goiás</option>
+                      <option value="MA">Maranhão</option>
+                      <option value="MT">Mato Grosso</option>
+                      <option value="MS">Mato Grosso do Sul</option>
+                      <option value="MG">Minas Gerais</option>
+                      <option value="PA">Pará</option>
+                      <option value="PB">Paraíba</option>
+                      <option value="PR">Paraná</option>
+                      <option value="PE">Pernambuco</option>
+                      <option value="PI">Piauí</option>
+                      <option value="RJ">Rio de Janeiro</option>
+                      <option value="RN">Rio Grande do Norte</option>
+                      <option value="RS">Rio Grande do Sul</option>
+                      <option value="RO">Rondônia</option>
+                      <option value="RR">Roraima</option>
+                      <option value="SC">Santa Catarina</option>
+                      <option value="SP">São Paulo</option>
+                      <option value="SE">Sergipe</option>
+                      <option value="TO">Tocantins</option>
+                      <script type="text/javascript" src ="js/cons.js"></script>
+                  </select>
+                  <h1>Cartão de credito</h1>
+                  <label for="num">N°</label>
+                  <input type="tel" name="cc" id="cc" maxlength="19" /><br>
+                  <label for="vct">Vencimento</label>
+                  <input type="tel" name="vct" id="vct" maxlength="5"/><br>                
+              </form>
           
-          'use strict';
+             <!--cadastro fornecedor-->
+             <form>
+              <h1>Cadastro Fornecedor</h1><br>
+              <label for="nome">Nome</label>
+              <input id="nome" type="text" required/><br>
+              <label for="cpf">CPF</label>
+              <input id="cpf" type="text" onkeyup="cpfCheck(this)" maxlength="14" onkeydown="javascript:fMasc(this, mCPF);"><br>
+              <label for="rg">RG</label>
+              <input id="rg" type="text" required/><br>
+              <label for="cep">CEP</label>
+              <input id="cep" type="text" maxlength="8" required/><br>
+              <label for="logradouro">Logradouro</label>
+              <input id="logradouro" type="text" required/><br>
+              <label for="numero">Número</label>
+              <input id="numero" type="text" /><br>
+              <label for="complemento">Complemento</label>
+              <input id="complemento" type="text"/><br>
+              <label for="bairro">Bairro</label>
+              <input id="bairro" type="text" required/><br>
+              <label for="uf">Estado</label>
+              <select id="uf">
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                  <script type="text/javascript" src ="js/cons.js"></script>
+              </select>
+            </form>
           
-          var winH = $(window).height();
           
-          $('header').height(winH);  
-          
-          $('header .container > div').css('top', (winH / 2) - ( $('header .container > div').height() / 2));
-          
-          $('.navbar ul li a.search').on('click', function (e) {
-              e.preventDefault();
-          });
-          $('.navbar a.search').on('click', function () {
-              $('.navbar form').fadeToggle();
-          });
-          
-          $('.navbar ul.navbar-nav li a').on('click', function (e) {
-              
-              var getAttr = $(this).attr('href');
-              
-              e.preventDefault();
-              $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
-          });
-      })
-   </script>
-</body>
+          </body>
+          </html>
+         
+            </div>
+         </div>
+      </div>
+
+      
+
+    
+                  <h2 class="heading_section">Fale conosco</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="trainings_blog" class="layout_padding" style="background: #b52f3c;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="contact-form">
+                     <form>
+                        <input type="text" placeholder="Nome completo" />
+                        <input type="text" placeholder="Telefone/celuar" />
+                        <input type="email" placeholder="Email" />
+                        <textarea placeholder="mensagem"></textarea>
+                        <input type="submit" value="Enviar">
+                     </form>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
+
+              <div class="col-lg-2 col-md-6 col-12">
+                  <div class="item">
+                     <h4>Adderss</h4>
+                     <p><img src="imgs/location.png" alt="#" />Curitiba<br>Paraná</p>
+                     <p><img src="imgs/phone_icon.png" alt="#" />+554133333333<br>+554133333333</p>
+                     <p><img src="imgs/mail_icon.png" alt="#" /> projeto@gmail.com</p>
+                  </div>
+               </div>
+
+               <div class="col-lg-3 col-md-6 col-12">
+                  <div class="item">
+                     
+                     
+                  </div>
+               </div>
+               
+               <div class="col-lg-3 col-md-6 col-12">
+                  
+                  <div class="item social_icon">
+                     <ul>
+                        <li><img src="imgs/fb.png" alt="#"></li>
+                        <li><img src="imgs/tw.png" alt="#"></li>
+                        <li><img src="imgs/in.png" alt="#"></li>
+                        <li><img src="imgs/gp.png" alt="#"></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-lg-3 col-md-6 col-12">
+                  
+               </div>
+
+            </div>
+         </div>
+         <div class="copyright text-center">
+            <p>Copyright © 2019 Designed by <a href="https://html.design">Free Html Templates</a>. All rights reserved</p>
+         </div>
+      </footer>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(function () {
+             
+             'use strict';
+             
+             var winH = $(window).height();
+             
+             $('header').height(winH);  
+             
+             $('header .container > div').css('top', (winH / 2) - ( $('header .container > div').height() / 2));
+             
+             $('.navbar ul li a.search').on('click', function (e) {
+                 e.preventDefault();
+             });
+             $('.navbar a.search').on('click', function () {
+                 $('.navbar form').fadeToggle();
+             });
+             
+             $('.navbar ul.navbar-nav li a').on('click', function (e) {
+                 
+                 var getAttr = $(this).attr('href');
+                 
+                 e.preventDefault();
+                 $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+             });
+         })
+      </script>
+   </body>
 </html>
